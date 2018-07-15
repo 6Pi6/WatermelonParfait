@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:contentDescription="@string/images_of_fruits"
+        android:id="@+id/iv_fruitImage"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/tv_fruitName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        tools:text="Fruit Name"
+        android:layout_gravity="center"
+        android:textAlignment="center" />
+
+</LinearLayout>
